@@ -1,9 +1,10 @@
-# Senior Backend Interview — Knowledge Graph & Study Plan
+# Senior Backend Interview — Knowledge Graph & Study Notes
 
-A dependency graph of ~230 knowledge nodes across 9 fields, each with prerequisites, dependents, the
-points you must be able to state, and the questions interviewers actually ask.
+A dependency graph of **230 knowledge nodes** across 9 fields. Every node is written out in full:
+the general idea, then each point broken into theory, a production example, and advanced knowledge —
+followed by the questions interviewers actually ask.
 
-## The files
+## The fields
 
 | # | Field | Nodes | Prefix |
 |---|-------|-------|--------|
@@ -17,18 +18,33 @@ points you must be able to state, and the questions interviewers actually ask.
 | 8 | [Infrastructure, Observability & Delivery](08-infra-observability-delivery/README.md) | 20 | `O` |
 | 9 | [System Design & Senior Signals](09-system-design-and-senior-signals/README.md) | 17 | `SD` |
 
+Each field folder has a **README** (the index: node map, prerequisites, topological waves) and
+several **study files** holding the nodes themselves.
+
 ## Node format
 
+Every node follows the same structure:
+
 ```
-#### M09 · Timeouts, retries, backoff, idempotency
-`I` · Requires: M08 · Unlocks: M10, M16, SD10, Q16
-- Key: <the things you must be able to say>
-- Q: <a question you will be asked>
+## M09 · Timeouts, retries, backoff and idempotency
+`Intermediate` · Requires: M08 · Unlocks: M10, M16, SD10, Q16
+
+### Preface          the general idea, and the most basic things to hold on to
+
+### Details
+#### 1. <point>
+**Theory.**   what it is and why
+**Example.**  a real, production-level case (with code where it helps)
+**Advanced.** the depth that separates a senior answer
+
+### Interview questions
 ```
 
-`Requires` = parents (learn first). `Unlocks` = children (they need this node). Each file ends with
-its **topological waves**: everything in Wave N depends only on Waves < N, so a wave can be learned
-in any order or in parallel. Levels: `B` beginner · `I` intermediate · `A` advanced · `X` expert.
+`Requires` = parents (learn these first). `Unlocks` = children (they need this node). Every field
+index ends with its **topological waves**: everything in Wave N depends only on Waves < N, so a whole
+wave can be studied in any order or in parallel.
+
+Levels: `Beginner` · `Intermediate` · `Advanced` · `Expert`.
 
 ---
 
