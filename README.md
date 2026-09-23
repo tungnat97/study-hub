@@ -48,6 +48,30 @@ Levels: `Beginner` · `Intermediate` · `Advanced` · `Expert`.
 
 ---
 
+## Real-life production problems
+
+Each field ends with a **real-life** file: a deep **pre-knowledge** section, then **200 interview
+questions in 10 levels** (20 each), from the most commonly asked production scenarios to rare,
+multi-system incidents. These are the "we saw X in production, what now?" questions whose good
+answer is not in the textbook. Every question carries a one-line **Direction** pointing back to the
+pre-knowledge section and node IDs it relies on. Attempt each out loud before reading it.
+
+| Field | File |
+|---|---|
+| 1 Microservices | [6-real-life.md](01-microservices/6-real-life.md) |
+| 2 Databases | [7-real-life.md](02-databases/7-real-life.md) |
+| 3 Frameworks | [5-real-life.md](03-frameworks/5-real-life.md) |
+| 4 API & protocols | [4-real-life.md](04-api-and-protocols/4-real-life.md) |
+| 5 Concurrency & performance | [4-real-life.md](05-concurrency-runtime-performance/4-real-life.md) |
+| 6 Caching, queues & streaming | [4-real-life.md](06-caching-queues-streaming/4-real-life.md) |
+| 7 Security | [4-real-life.md](07-security/4-real-life.md) |
+| 8 Infra, observability & delivery | [4-real-life.md](08-infra-observability-delivery/4-real-life.md) |
+| 9 System design & senior signals | [4-real-life.md](09-system-design-and-senior-signals/4-real-life.md) |
+
+Study them after the field's nodes: the pre-knowledge assumes the node notes and goes past them.
+
+---
+
 ## Master order across all fields
 
 Phases are strictly ordered. Inside a phase, follow each field file's own wave order.

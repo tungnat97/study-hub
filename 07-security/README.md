@@ -15,6 +15,7 @@ interview questions.
 | [1 — Threat modelling, identity & access](1-identity-and-access.md) | `S01`–`S05` | Threat modelling and STRIDE, authentication and password storage, sessions vs JWT, OAuth2/OIDC, authorisation models |
 | [2 — The vulnerability catalogue](2-vulnerabilities.md) | `S06`–`S09` | OWASP Top 10, injection, XSS/CSRF/SSRF/deserialisation, broken access control in practice |
 | [3 — Secrets, crypto, privacy & operations](3-crypto-privacy-and-operations.md) | `S10`–`S17` | Secrets and rotation, applied cryptography, privacy and GDPR, abuse prevention, supply chain, infrastructure identity, detection and incident response, secure SDLC |
+| [4 — Real-life production problems](4-real-life.md) | Pre-knowledge + 200 questions | Production war stories across `S01`–`S17`: JWT rotation and revocation, refresh-token reuse, SSO edge cases, IDOR at scale, SSRF and IMDSv2, desync and cache deception, credential stuffing, secret leaks and dual-key rotation, KMS limits and crypto-shredding, supply chain, workload identity, incident forensics |
 
 ## Node map
 

@@ -17,6 +17,7 @@ Levels: `Beginner` · `Intermediate` · `Advanced` · `Expert`.
 | [3 — Events, data & coordination](3-events-data-and-coordination.md) | `M17`–`M23` | Event-driven architecture, event sourcing, CQRS, consensus, clocks, data ownership, cross-service queries |
 | [4 — Evolution & delivery](4-evolution-and-delivery.md) | `M24`–`M28` | Versioning, tracing, service mesh, deployment strategies, strangler fig |
 | [5 — Scale & reliability](5-scale-and-reliability.md) | `M29`–`M35` | Multi-tenancy, backpressure, blast radius, partitioning, replication, SLOs, testing |
+| [6 — Real-life production problems](6-real-life.md) | Pre-knowledge + 200 questions | Production war stories across all nodes: timeout and retry defaults, connection and LB pathologies, overload and metastable failure, messaging duplicates, outbox/CDC/saga bugs, mesh footguns, observability, hot keys and cells, leases and split-brain, multi-system cascades |
 
 ## Node map
 

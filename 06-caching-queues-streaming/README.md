@@ -14,6 +14,7 @@ interview questions.
 | [1 — Caching and Redis](1-caching.md) | `Q01`–`Q09` | Why cache, strategies, invalidation, stampedes and hot keys, Redis fundamentals, persistence and eviction, clustering, Lua and streams, CDN and in-process caching |
 | [2 — Queues and Kafka](2-queues-and-kafka.md) | `Q10`–`Q16` | Messaging fundamentals, RabbitMQ, Kafka fundamentals, durability, partitioning and ordering, consumer operations, retries and DLQ |
 | [3 — Streaming and job design](3-streaming-and-job-design.md) | `Q17`–`Q21` | Stream processing and watermarks, log compaction and CDC, event schemas, choosing the right tool, job design and fairness |
+| [4 — Real-life production problems](4-real-life.md) | Pre-knowledge + 200 questions | Redis slow commands, memory, fork and failover; stampedes and invalidation races; Kafka rebalances, durability and retention; RabbitMQ, SQS and job-queue traps; CDC, watermarks and replay |
 
 ## Node map
 

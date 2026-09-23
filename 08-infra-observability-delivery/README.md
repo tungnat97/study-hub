@@ -16,6 +16,7 @@ interview questions.
 | [1 — Linux, containers & Kubernetes](1-linux-containers-kubernetes.md) | `O01`–`O07` | Signals and file descriptors, network debugging, container images, cgroups and OOMKill, Kubernetes objects, probes and zero-downtime deploys, stateful workloads |
 | [2 — CI/CD, IaC & cloud](2-delivery-and-cloud.md) | `O08`–`O12` | Pipelines, deployment and release, infrastructure as code, cloud primitives, serverless |
 | [3 — Observability & operations](3-observability-and-operations.md) | `O13`–`O20` | The three signals, metrics and dashboards, tracing, alerting and on-call, debugging production, cost, runtime config, disaster recovery |
+| [4 — Real-life production problems](4-real-life.md) | Pre-knowledge + 200 questions | War-story scenarios across the module: OOM and PID 1, deploy races, CFS throttling, conntrack and DNS, autoscaling and PDBs, lying metrics, burn-rate alerting, Terraform and config incidents, cloud limits and cost, compound failures and DR |
 
 ## Node map
 

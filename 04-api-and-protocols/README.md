@@ -15,6 +15,7 @@ interview questions.
 | [1 — HTTP & REST](1-http-and-rest.md) | `A01`–`A09` | HTTP semantics, idempotency, REST modelling, caching, pagination, versioning, errors, rate limiting, idempotency keys |
 | [2 — Transport & protocols](2-transport-and-protocols.md) | `A10`–`A17` | HTTP/2 and HTTP/3, TLS, TCP, DNS, gRPC, GraphQL, realtime and webhooks, serialisation |
 | [3 — Auth, payloads & governance](3-auth-payloads-and-governance.md) | `A18`–`A22` | API auth, CORS, compression and streaming, long-running and bulk operations, contract testing |
+| [4 — Real-life production problems](4-real-life.md) | Pre-knowledge + 200 questions | Keep-alive races and 502/504s, TCP/NAT/MTU failures, DNS and TLS in practice, CDN and CORS gotchas, gRPC/HTTP/2 balancing, webhooks and realtime, idempotency and rate limiting at scale, cross-layer incidents |
 
 ## Node map
 

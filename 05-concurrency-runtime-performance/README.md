@@ -15,6 +15,7 @@ interview questions.
 | [1 — Concurrency models](1-concurrency-models.md) | `C01`–`C08` | Processes and threads, blocking I/O, the Node event loop, CPU-bound work, promises, JVM threads and virtual threads, Python GIL, memory model |
 | [2 — Coordination & memory](2-coordination-and-memory.md) | `C09`–`C13` | Locks, lock-free and single-writer, distributed locks and fencing, garbage collection and leaks, profiling |
 | [3 — Latency & throughput](3-latency-and-throughput.md) | `C14`–`C19` | Percentiles and Little's Law, load testing, backpressure, network efficiency, data structures, streaming |
+| [4 — Real-life production problems](4-real-life.md) | Pre-knowledge + 200 questions | Event-loop and threadpool starvation, heap limits and leaks in containers, CFS throttling, GC and safepoint pauses, virtual-thread pinning, pre-fork copy-on-write, coordinated omission, tail amplification, contention pathologies, fencing and leases, metastable failures |
 
 ## Node map
 

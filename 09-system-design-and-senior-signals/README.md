@@ -16,6 +16,7 @@ interview questions.
 | [1 — The design process](1-design-process.md) | `SD01`–`SD08` | Scoping, estimation, high-level design, data modelling, scaling reads and writes, failure design, consistency decisions |
 | [2 — Scale patterns & migration](2-scale-patterns-and-migration.md) | `SD09`–`SD14` | Hot spots and fan-out, correctness in payments and bookings, rate limiting at scale, canonical designs, geography and tenancy, migration |
 | [3 — Communication & behavioural](3-communication-and-behavioural.md) | `SD15`–`SD17` | How to communicate in the round, the practice problem set, senior behavioural signals |
+| [4 — Real-life production problems](4-real-life.md) | Pre-knowledge + 200 questions | Hot spots and counters, overload and metastable failures, payments and booking correctness, live migrations, fairness, multi-region and cells, incident leadership and senior judgement calls |
 
 ## Node map
 

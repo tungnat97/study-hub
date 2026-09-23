@@ -19,6 +19,7 @@ node.
 | [4 — Migrations, replication & sharding](4-migrations-replication-and-sharding.md) | `DB22`–`DB25` | Zero-downtime DDL, backfills, replication, partitioning, sharding |
 | [5 — NoSQL & specialised stores](5-nosql-and-specialised-stores.md) | `DB26`–`DB35` | NoSQL families, MongoDB, DynamoDB/Cassandra, LSM vs B-tree, Redis, Elasticsearch, OLAP, sketches, FTS, distributed SQL |
 | [6 — Operations, security & ORMs](6-operations-security-and-orm.md) | `DB36`–`DB40` | Backups and PITR, database security, money and ledgers, observability, ORM internals |
+| [7 — Real-life production problems](7-real-life.md) | Pre-knowledge + 200 questions | Vacuum and wraparound, lock queues, pooling, plan flips, zero-downtime migrations, replication, WAL and disk, NoSQL failure modes, recovery war stories |
 
 ## Node map
 

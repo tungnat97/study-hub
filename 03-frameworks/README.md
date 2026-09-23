@@ -20,6 +20,7 @@ interview questions.
 | [2 — Persistence, jobs & realtime](2-persistence-jobs-and-realtime.md) | `F09`–`F17` | ORMs, transactions, auth, testing, background jobs, scheduling, caching, WebSockets, file upload |
 | [3 — Architecture & deep dives](3-architecture-and-deep-dives.md) | `F18`–`F23` | Internal architecture, NestJS deep dive and internals, Django, Spring Boot, other stacks |
 | [4 — Performance, security & choosing](4-performance-security-and-choosing.md) | `F24`–`F28` | Framework performance, OpenAPI, web security checklist, stack choice, runtime and graceful shutdown |
+| [5 — Real-life production problems](5-real-life.md) | Pre-knowledge + 200 questions | Keep-alive 502s, pool starvation and deadlock, transaction and ORM traps, DI scope and pipeline order, job double-runs, graceful shutdown, containers, leaks, context propagation, caching, proxies and upgrade defaults |
 
 ## Node map
 
